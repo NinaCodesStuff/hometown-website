@@ -1,0 +1,147 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("images/greenfield-downtown.jpg");
+    background-size: cover;
+    padding: 200px 0;
+    
+}
+
+.hero-section:hover {
+    background: url("images/greenfield-downtown3.jpg");
+    background-size: cover;
+}
+
+
+.hero-header {
+    background: #035a34;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.hero-text {
+    background: #21a76d;
+    border-radius: 10px;
+    padding: 0 20px;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.activities-section {
+    background: #fff39b;
+    padding: 25px 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h3, h4, p {
+    color: #035a34;
+}
+
+.activities-img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.activities-img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.activities-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.activities-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+h4 {
+    font-size: 18px;
+    width: 150px;
+    margin-bottom: -5px;
+}
+
+p {
+    width: 250px;
+}
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 300px;
+    background: #6cc68b;
+    border-radius: 20px;
+    border-bottom: 7px solid #035a34;
+    margin: 50px 0 50px 0; 
+}
+
+#avatar {
+    width: 180px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#card-p {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#card-h4 {
+    text-align: center;
+    margin-left: 30px;
+    width: 200px;
+}
+
+#card-h3 {
+    margin-top: 10px;
+}
+
+
